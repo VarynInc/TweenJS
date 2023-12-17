@@ -10,7 +10,7 @@ sass (3.3 or greater is required):
     
     # ruby is required for sass. Check http://sass-lang.com/install for dependencies.
     # Install (or update) sass
-    gem install sass;
+    npm install -g sass
     
 Node (0.10.x or greater is required):
 
