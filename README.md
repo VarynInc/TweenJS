@@ -58,11 +58,11 @@ createjs.Tween.get(target,null,true); // this will remove any existing tweens on
 * Discuss, share projects, and interact with other users on [reddit](http://www.reddit.com/r/createjs/).
 * Ask technical questions on [Stack Overflow](http://stackoverflow.com/questions/tagged/tweenjs).
 * File verified bugs or formal feature requests using Issues on [GitHub](https://github.com/createjs/TweenJS/issues).
-* Have a look at the included [examples](https://github.com/CreateJS/TweenJS/tree/master/examples) and 
+* Have a look at the included [examples](https://github.com/CreateJS/TweenJS/tree/master/examples) and
 [API documentation](http://createjs.com/docs/tweenjs/) for more in-depth information.
 
-It was built by [gskinner.com](http://www.gskinner.com), and is released for free under the MIT license, which means you 
-can use it for almost any purpose (including commercial projects). We appreciate credit where possible, but it is not a 
+It was built by [gskinner.com](http://www.gskinner.com), and is released for free under the MIT license, which means you
+can use it for almost any purpose (including commercial projects). We appreciate credit where possible, but it is not a
 requirement.
 
 ## Classes
@@ -74,9 +74,15 @@ Returns a new Tween instance.
 The Timeline class synchronizes multiple tweens and allows them to be controlled as a group.
 
 **Ease**
-The Ease class provides a collection of easing functions for use with TweenJS. It does not use the standard 4 param 
+The Ease class provides a collection of easing functions for use with TweenJS. It does not use the standard 4 param
 easing signature. Instead it uses a single param which indicates the current linear ratio (0 to 1) of the tween.
 
 ## Thanks
-Special thanks to [Robert Penner](http://flashblog.robertpenner.com/) for his easing equations, which form the basis for 
+Special thanks to [Robert Penner](http://flashblog.robertpenner.com/) for his easing equations, which form the basis for
 the Ease class.
+
+## Build the library
+
+All source code is in the `./src` folder. After updating any source code, run the tests to verify your changes. See [`./tests/README.md`](./tests/README.md). If you add new code, please add a test case to validate your new code. In order to run the tests you need to run the `build next` process as the tests are run against the `tweenjs-NEXT.js` library.
+
+Do not edit the library files in `./lib` directly, these files are generated from the `./src` folder by the build process. To build this library, see [`./build/README.md`](./build/README.md).
