@@ -1,3 +1,9 @@
+Version 1.0.4 (January 31, 2026)
+****************************************************************************************************
+- Accumulated commits since 6579923 2017-09-18 | 1.0.2 (tag: v1.0.2)
+- add #115
+- Provide a hook property for dynamic tweens
+
 Version 1.0.0 (September 14, 2017)
 ****************************************************************************************************
 CRITICAL (may break existing content):
